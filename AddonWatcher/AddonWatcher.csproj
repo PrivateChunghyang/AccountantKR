@@ -34,7 +34,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <DalamudLibPath>$(AppData)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+    <DalamudLibPath>C:\Users\sujin\source\repos\DalamudKR\bin\dev\</DalamudLibPath>
   </PropertyGroup>
 
   <ItemGroup>
