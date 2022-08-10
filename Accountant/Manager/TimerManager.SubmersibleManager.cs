@@ -77,7 +77,7 @@ public partial class TimerManager
 
         private delegate void PacketHandler(IntPtr manager, IntPtr data);
 
-        [Signature("E8 ?? ?? ?? ?? 48 8B 3D ?? ?? ?? ?? 48 85 FF 74 ?? 48 8B CF E8 ?? ?? ?? ?? 84 C0 75 ?? 83 BF",
+        [Signature("E8 E8 03 00 00 B0 01 48 81 C4 10 01 00 00 5B C3",
             DetourName = nameof(SubmersibleTimersDetour))]
         private Hook<PacketHandler>? _submersibleTimersHook = null!;
 

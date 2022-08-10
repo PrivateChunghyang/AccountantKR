@@ -76,11 +76,11 @@ public partial class TimerManager
 
         private delegate void PacketHandler(IntPtr manager, IntPtr data);
 
-        [Signature("E8 ?? ?? ?? ?? 33 D2 48 8D 4C 24 ?? 41 B8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 8D 54 24 ?? 48 8B CB E8 ?? ?? ?? ?? 48 8B 3D",
+        [Signature("E8 17 03 00 00 33 D2 48 8D 4C 24 30 41 B8 90 00 00 00 E8 65 CA 8D 00 48 8D 54 24 30 48 8B CB E8 E8 03 00 00 B0 01 48",
             DetourName = nameof(AirshipTimersDetour))]
         private Hook<PacketHandler>? _airshipTimersHook = null!;
 
-        [Signature("48 89 5C 24 ?? 48 89 6C 24 ?? 48 89 74 24 ?? 57 41 54 41 55 41 56 41 57 48 83 EC ?? 48 8D 99 ?? ?? ?? ?? C6 81",
+        [Signature("48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B D9 33 FF 48 8B 49 10 49 8B E9 48 85 C9 74 0C",
             DetourName = nameof(AirshipStatusListDetour))]
         private Hook<PacketHandler>? _airshipStatusListHook = null!;
 

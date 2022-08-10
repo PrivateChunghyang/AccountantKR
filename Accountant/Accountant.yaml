@@ -1,20 +1,20 @@
 name: Accountant
 author: Ottermandias
 description: |-
-  Keep track of retainer, airship, submersible, aetherial wheel and crop timers
-  as well as several miscallaneous tasks of multiple characters.
-punchline: Character task timers.
+  비공정, 잠수정, 집사, 에테르 충전기, 작물에 대한 타이머를 추가합니다.
+  또한 계정 내에 여러 캐릭터도 대응합니다.
+punchline: 캐릭터 업무 타이머
 repo_url: https://github.com/Ottermandias/Accountant
 dalamud_api_level: 7
 tags:
-  - Airship
-  - Gardening
-  - Crops
-  - Retainer
-  - Multiple Characters
-  - Account
-  - Timer
-  - Submarine
-  - Submersible
-  - Tasks
-  - Cactpot
+  - 비공정
+  - 작물키우기
+  - 작물
+  - 집사
+  - 여러 캐릭터
+  - 계정
+  - 타이머
+  - 잠수정
+  - 잠수함
+  - 업무
+  - 일일복권

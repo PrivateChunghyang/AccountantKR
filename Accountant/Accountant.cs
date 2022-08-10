@@ -38,13 +38,13 @@ public class Accountant : IDalamudPlugin
 
         Dalamud.Commands.AddHandler("/accountant", new CommandInfo(OnAccountant)
         {
-            HelpMessage = "Open Accountant config. Use '/acct' or '/accountant timers' to toggle the timer window.",
+            HelpMessage = "Accountant 설정 창을 여세요. '/acct'로 타이머창을 열고닫으며, '/accountant' 명령어로 설정창을 여세요.",
             ShowInHelp  = true,
         });
 
         Dalamud.Commands.AddHandler("/acct", new CommandInfo(OnAcct)
         {
-            HelpMessage = "Toggle the timer window.",
+            HelpMessage = "타이머창을 엽니다.",
             ShowInHelp  = true,
         });
     }
